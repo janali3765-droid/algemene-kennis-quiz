@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algemene Kennis Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">Quiz Challenge</div>
+      </header>
+
+      <main class="quiz-card">
+        <section class="intro">
+          <p class="eyebrow">Algemene kennis</p>
+          <h1>20 vragen over de wereld om je heen</h1>
+          <p class="subtitle">
+            Kies het juiste antwoord en stuur je resultaat direct naar
+            <strong>janali3765@gmail.com</strong>.
+          </p>
+        </section>
+
+        <form id="quiz-form">
+          <div id="questions" class="questions"></div>
+
+          <div class="actions">
+            <button id="submit-btn" type="submit">Verstuur quiz</button>
+          </div>
+        </form>
+
+        <div id="result" class="result" aria-live="polite"></div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
