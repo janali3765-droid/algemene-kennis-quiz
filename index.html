@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Algemene Kennis Quiz</title>
+    <title>Quiz Challenge | Algemene Kennis</title>
+    <meta
+      name="description"
+      content="Speel een quiz met 20 algemene kennisvragen en stuur je score naar janali3765@gmail.com."
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -17,12 +21,17 @@
           <p class="eyebrow">Algemene kennis</p>
           <h1>20 vragen over de wereld om je heen</h1>
           <p class="subtitle">
-            Kies het juiste antwoord en stuur je resultaat direct naar
+            Test je kennis, ontdek je score en stuur je resultaten direct naar
             <strong>janali3765@gmail.com</strong>.
           </p>
         </section>
 
-        <form id="quiz-form">
+        <div class="meta-bar">
+          <span id="progress-indicator">0 / 20 beantwoord</span>
+          <span id="score-indicator">Score: 0</span>
+        </div>
+
+        <form id="quiz-form" novalidate>
           <div id="questions" class="questions"></div>
 
           <div class="actions">
